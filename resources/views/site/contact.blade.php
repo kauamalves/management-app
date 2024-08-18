@@ -6,10 +6,11 @@
         <div class="titulo-pagina">
             <h1>Entre em contato conosco</h1>
         </div>
-
         <div class="informacao-pagina">
             <div class="contato-principal">
-                @component('site.layouts.components.contactForm')
+                @component('site.layouts.components.contactForm', ['borderClass' => 'borda-preta']) {{-- Associate 'borderClass' to 'borda-preta', who is a css class --}}
+                    <h2>Nossa equipe analisará seu email e responderá o mais brevemente possível.</h2>
+                    <p>O tempo médio de resposta é de 24h</p>
                 @endcomponent
             </div>
         </div>

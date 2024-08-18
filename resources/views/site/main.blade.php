@@ -30,7 +30,8 @@
                 <h1>Contato</h1>
                 <p>Caso tenha qualquer dúvida por favor entre em contato com nossa equipe pelo formulário abaixo.
                 <p>
-                    @component('site.layouts.components.contactForm')
+                    @component('site.layouts.components.contactForm', ['borderClass' => 'borda-branca'])
+
                     @endcomponent
             </div>
         </div>
